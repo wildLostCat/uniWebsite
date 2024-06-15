@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8a6e4d;
+    background-image: linear-gradient(to bottom right, #3d3d3c, #8a6e4d);
+}
+.table__header{
+    background-color: #49494a;
+    font-size: 30px;
+}
+.table__row:nth-child(even){
+    background-color: #bf9a6d;
+}
+.table__cell{   
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.table__row{
+    font-size: 20px;
+}
