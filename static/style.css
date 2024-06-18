@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 body{
     display: flex;
     align-items: center;
@@ -5,17 +7,33 @@ body{
     height: 100vh;
     background-color: #8a6e4d;
     background-image: linear-gradient(to bottom right, #3d3d3c, #8a6e4d);
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.table{
+    border-spacing: 0;
+    border-top-left-radius: 10px;
+    margin: auto;
+    background-color: #996f40;
 }
 .table__header{
     background-color: #49494a;
     font-size: 30px;
+    border-radius: 10px;
+
+}
+.table__header__cell{
+    padding: 10px;
+    text-align: center;
 }
 .table__row:nth-child(even){
     background-color: #bf9a6d;
 }
 .table__cell{   
     padding: 5px;
-    border-radius: 12px;
+    text-align: center;
 }
 
 .table__row{
